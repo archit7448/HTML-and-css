@@ -1,3 +1,7 @@
+:root{
+    --primary-color: #4B5563;
+    --secondary-color:white;
+}
 header{
     background-color:#374151;
 }
@@ -17,7 +21,7 @@ nav{
      padding:0 1.2rem;
 }
 .img-logo{
-    width:40%;
+    width:35%;
     margin: 2rem auto;
     display:block;
 }
@@ -50,7 +54,7 @@ nav{
     border:2px solid white;
     border-radius: 25px;
     margin: 0 auto;
-    background-color:#4B5563
+    background-color:#4B5563;
 }
 .blogs-section{
     text-align: center;
@@ -83,4 +87,83 @@ small{
 .footer-link{
     text-align: right;
     vertical-align: middle;
+}
+.projects-live{
+    list-style: none;
+}
+.first-container{
+    max-width:60%;
+    margin:30px auto;
+    text-align: center;
+    font-size:1.5rem;
+    padding:0.8rem 0;
+    background-color: #9CA3Af;
+    border:2px black solid;
+    padding-top:2px;
+    line-height:1;
+    color: white;
+}
+.first-link{
+    background-color:var(--primary-color);
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    border-radius: 25px;
+    border:2px solid white;
+    margin-left:20px;
+}
+.second-link{
+    background-color: var(--secondary-color);
+    padding:10px;
+    color: black;
+    text-decoration: none;
+    border-radius: 25px;
+    margin:0 20px;
+    border:2px solid black;
+}
+.container5{
+    background-color: white;
+    color:black;
+}
+.container6{
+    max-width:50%;
+    margin:100px auto;
+    text-align: center;
+    font-size:2rem;
+    padding:1rem 0;
+}
+.read-more{
+    background-color: #374151;
+    color: white;
+    text-decoration:none;
+    border-radius:25px;
+    padding:0.8rem;
+}
+.container7{
+    display: flex;
+    width:70%;
+    margin: 0 auto;
+    font-size:1.5rem;
+    justify-content: space-between;
+}
+.img-flexbox{
+    width:50%;
+}
+.photo-flexbox{
+    width:100%;
+}
+.flex-box1{
+    width:50%;
+}
+.container8{
+    display:block;
+}
+.axis{
+    width:600px;
+}
+ul{
+    line-height:2;
+}
+.photo-flex1{
+    max-width: 100%;
 }

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-box</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cb9e475ff7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a class="archit" href="#">Archit Singh</a>
+        <nav>
+            <a class="home" href="index.html">HOME</a>
+            <a class="projects" href="projects.html">PROJECTS</a>
+            <a class="blog" href="blog.html"><strong>BLOGS</strong></a>
+        </nav> 
+    </header>
+    <section>
+        <div class="container7">
+            <div class="flex-box1"><h1>Flex Box In CSS3</h1>
+                <p>Flex box helps to align items and distribute space among container</p>
+                <p>In flex box items can accomodate(shrink or expand) according to the size of screen</p>
+                <p>Flex box container: Parent element where we need to apply "display:flex"</p>
+                <p>Flex items: Child elements inside the flex container</p>
+            </div>
+            <div class="img-flexbox"><img class="photo-flexbox" src="assets/flex-box1.svg"> </div>
+        </div>
+        <div class="container7 container8">
+            <h1>Cross Axis and Main axis </h1>
+            <img class="axis" src="assets/crossaxis.png" alt="axis">
+        </div>
+        <div class="container7">
+            <h2>Flex container properties are :</h2>
+            <ul>
+                <li>Display</li>
+                <li>Flex-direction</li>
+                <li>Flex-wrap</li>
+                <li>Flex-flow</li>
+                <li>Justify-content</li>
+                <li>Align-items</li>
+                <li>Align-content</li>
+            </ul>
+        </div>
+        <div class="container7 container8">
+            <h1>Display</h1>
+            <p>flex works like block level element it have the same property (Whole-space).</p>
+            <p>Inline-flex works like Inline-block wraps space according to content.</p>
+        </div>
+        <div class="container7">
+            <div class="flex-box1">
+                <h1>Flex-direction</h1>
+                <h2>Determines the direction of the flex-box</h2>
+                <p>Accepts four different values</p>
+                <p>Row:Default,item will lay out to left to right.</p>
+                <p>column:Item will lay out to top to bottom</p>
+                <p>Row-Reverse:Opposite to "row" direction (right to left)</p>
+                <p>Column-Reverse:opposite to "column".Item will laid out bottom to top</p>
+            </div>
+            <div class="img-flexbox"><img class="photo-flexbox" src="assets/flex-direction.png" alt="flex-diecrtion"></div>
+        </div>
+        <div class="container7">
+            <div class="flex-box1">
+               <h1>Flex Wrap</h1>
+               <h4>It determines how the flex container will accomodate if there is some extra space in flex container</h4>
+               <p>Three different values</p>
+               <p>No wrap:Default value,no changes</p>
+               <p>Wrap:Item will wrapped , flex-items will go to new line if there has no space </p>
+               <p>Wrap reverse : opposite to wrap felx-items wil in the opposite direction</p>
+            </div>
+        <div class="img-flexbox"><img class="photo-flexbox" src="assets/flex-wrap.png" alt="flex-wrap">
+        </div>
+        </div>
+        <div class=" container7 container8">
+            <h1>Flex-flow</h1>
+            <p>Accepts two value at a time</p>
+            <p>Fisrt: Detremines the flex-direction</p>
+            <p>Second: determines the flex-wrap</p>
+        </div>
+        <div  class="container7">
+            <div class="flex-box1">
+               <h1>Justify-content property</h1>
+               <p>Property determines how the flex-items will laid ou on the main axis</p>
+               <p>Helps to make use of extra space left-over in a flex-container</p>
+               <p>accepts six different values</p>
+               <ul>
+                   <li>Flex-start</li>
+                   <li>Flex-end</li>
+                   <li>Center</li>
+                   <li>Space-between</li>
+                   <li>space-around</li>
+                   <li>Space-evenly</li>
+               </ul>
+            </div>
+            <div class="img-flexbox"><img class="photo-flexbox" src="assets/justify align.png"> </div>
+            </div>
+            <div class="container7 container8">
+                <p><strong>Flex-start:</strong>Default values items will start from the starting point. </p>
+                <p><strong>Flex-end:</strong>flex-items will start frpm the end point.</p>
+                <p><strong>Center:</strong>flex-items will in the center.</p>
+                <p><strong>Space-between:</strong>The extra space in the flex conatiner will be evenly distributed.
+                the first item will in the container will stick to the starting point of the main axis and last item 
+                will attach to the end point.
+                </p>
+                <p><strong>Space-around:</strong>Extra space in the flex container will evenly distributed between flex-items in the "main-axis" 
+                suppose there is three boxes so in this case first&last box will take x units space from the wall and it take space x from the center 
+                box.
+                </p>
+                <p><strong>Space-Evenly:</strong>In this flex-items will take evenly space from the right and left side both.</p>
+                <p>for more understanding you can refer diagram.</p>
+            </div>
+        <div class="container7 container8">
+            <h1>Align Items</h1>
+            <p>Similar to justify content,but works on the cross axis and how flex-items  align to flex-line</p>
+            <p><strong>Stretch:</strong>Default value flex-items will stretch</p>
+            <p><strong>Flex-start:</strong>Default values items will start from the starting point. </p>
+            <p><strong>Flex-end:</strong>flex-items will start frpm the end point.</p>
+            <p><strong>Center:</strong>flex-items will in the center.</p>
+        </div>
+        <div class="container7">
+            <div class="flex-box1">
+                <p><strong>Baseline:</strong>According to font-size align to the base line all in the same axis</p>
+            </div>
+            <div class="img-flexbox">
+                <img class="photo-flex1" src="assets/baseline.png" alt="baseline" >
+            </div>
+        </div>
+        <div class="container7">
+            <div class="flex-box1">
+                <h1>Align-Content</h1>
+                <p>It works on how the flex-line are align along the cross-axis</p>
+                <ul>properties :
+                    <li>Stretch</li>
+                    <li>Flex-start</li>
+                    <li>Flex-end</li>
+                    <li>Center</li>
+                    <li>Space-between</li>
+                    <li>Space-around</li>
+                    <li>Space-evenly</li>
+                    <li>ALL the property are disccused above also can refer diagram ,it works on the cross axis</li>
+                </ul>
+            </div>
+            <div class="img-flexbox">
+                <img class="photo-flex1" src="assets/align-content.png">
+            </div>
+        </div>    
+    </section>
+    <footer>
+        <small>&copy;Archit 2021</small>
+        <div class="footer-link">
+            <a class="flink-a-tag" href="https://github.com/archit7448"><i class="fab fa-github"></i></a>
+            <a class="flink-a-tag" href="https://twitter.com/Archit0204"><i class="fab fa-twitter"></i></a>
+            <a class="flink-a-tag" href="https://www.linkedin.com/in/archit-singh-9b6382221/"><i class="fab fa-linkedin-in"></i>
+        </div>
+    </footer>
+</body>
+</html>
