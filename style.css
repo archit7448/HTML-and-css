@@ -94,7 +94,7 @@ small{
     list-style: none;
 }
 .first-container{
-    max-width:60%;
+    max-width:50%;
     margin:30px auto;
     text-align: center;
     font-size:1.3rem;
@@ -166,7 +166,7 @@ small{
     width:600px;
 }
 ul{
-    line-height:2;
+    line-height:1;
 }
 .photo-flex1{
     max-width: 100%;
