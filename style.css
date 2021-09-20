@@ -112,7 +112,7 @@ small{
     border-radius: 25px;
     margin:20px auto;
     display: block;
-    width: 10%;
+    max-width: 4rem;
     border: 2px solid black;
     margin-bottom:30px;
 }
