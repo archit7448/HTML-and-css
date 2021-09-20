@@ -4,6 +4,7 @@
 }
 header{
     background-color:#374151;
+    font-size: 1rem;
 }
 nav{
     text-align: right;
@@ -87,6 +88,7 @@ small{
 .footer-link{
     text-align: right;
     vertical-align: middle;
+    color: white;
 }
 .projects-live{
     list-style: none;
@@ -95,12 +97,11 @@ small{
     max-width:60%;
     margin:30px auto;
     text-align: center;
-    font-size:1.5rem;
-    padding:0.8rem 0;
+    font-size:1.3rem;
+    padding:20px 0;
     background-color: #9CA3Af;
     border:2px black solid;
-    padding-top:2px;
-    line-height:1;
+    line-height:0.8;
     color: white;
 }
 .first-link{
@@ -109,8 +110,11 @@ small{
     color:white;
     text-decoration: none;
     border-radius: 25px;
-    border:2px solid white;
-    margin-left:20px;
+    margin:20px auto;
+    display: block;
+    width: 10%;
+    border: 2px solid black;
+    margin-bottom:30px;
 }
 .second-link{
     background-color: var(--secondary-color);
@@ -129,7 +133,7 @@ small{
     max-width:50%;
     margin:100px auto;
     text-align: center;
-    font-size:2rem;
+    font-size:1.5rem;
     padding:1rem 0;
 }
 .read-more{
