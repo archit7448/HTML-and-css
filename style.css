@@ -171,3 +171,11 @@ ul{
 .photo-flex1{
     max-width: 100%;
 }
+.blog-container{
+    width: 70%;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
